@@ -1,7 +1,7 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
-import Thread from "../models/Thread.model";
+import Thread from "../models/thread.model";
 import User from "../models/user.model";
 import { connectToDB } from "../mongoose";
 
@@ -65,4 +65,42 @@ export async function fetchThreads(pageNumber = 1, pageSize = 20){
         const isNext = totalPostsCount > skipAmount + posts.length;
 
         return {posts, isNext}
+}
+
+
+export async function fetchThreadById(id: string){
+    connectToDB();
+
+    try {
+        //popluate community
+        const thread = await Thread.findById(id)
+            .populate({
+                path: 'author',
+                model: User,
+                select: "_id id name image"
+            })
+            .populate({ 
+                path:'children',
+                populate : [
+                    {
+                        path: 'author',
+                        model: User,
+                        select: "_id id name parentId image"
+                    },
+                    {
+                        path: 'children',
+                        model: Thread,
+                        populate: {
+                            path: 'author',
+                            model: User,
+                            select: "_id id name parentId image"
+                        }
+                    }
+                ]
+            })
+        
+        return thread;
+    } catch(error: any) {
+        throw new Error(`Error fetching thread: ${error.message}`)
+    }
 }

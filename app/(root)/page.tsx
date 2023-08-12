@@ -2,7 +2,7 @@
 
 import { currentUser } from "@clerk/nextjs";
 import { fetchThreads } from "@/lib/actions/thread.actions";
-import ThreadCard from "@/components/cards/ThreadCard";
+import ThreadCard from "../../components/cards/ThreadCard";
 
 export default async function Home() {
   const result = await fetchThreads(1, 30);
@@ -22,7 +22,7 @@ export default async function Home() {
                 <ThreadCard 
                   key = {post._id}
                   id = {post._id}
-                  currentUserId = {user?.id}
+                  currentUserId = {user?.id || ""}
                   parentId = {post.parentId}
                   content = {post.text}
                   author = {post.author}
