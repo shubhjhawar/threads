@@ -1,7 +1,8 @@
 # Thread App Clone Web Project Readme
 
 <img width="428" alt="thread-mob" src="https://github.com/shubhjhawar/threads/assets/67875612/dc864885-5514-464f-9b47-771f16d66895">
-![Uploading thread-web.png…]()
+
+<img width="428" alt="thread-mob" src="https://github.com/shubhjhawar/threads/assets/67875612/e8b58417-9c19-4832-8943-a684454fd70a">
 
 
 ## Live Deployment
@@ -15,9 +16,7 @@ The live deployment of the Thread App Clone can be accessed at [https://threads-
 - [Getting Started](#getting-started)
 - [Key Features](#key-features)
 - [Usage and Functionality](#usage-and-functionality)
-- [Live Deployment](#live-deployment)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 
