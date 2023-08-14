@@ -14,6 +14,7 @@ The live deployment of the Thread App Clone can be accessed at [https://threads-
 - [Key Features](#key-features)
 - [Usage and Functionality](#usage-and-functionality)
 - [Contributing](#contributing)
+- [Future Work](#futurework)
 
 ## Project Overview
 
@@ -49,11 +50,11 @@ The Thread App Clone is a web application developed as a clone of the popular th
 
 To get started with the Thread App Clone project, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/thread-app-clone.git`
+1. Clone the repository: `git clone https://github.com/shubhjhawar/threads`
 
-2. Install dependencies: `cd thread-app-clone && npm install`
+2. Install dependencies: `npm install`
 
-3. Configure environment variables: Copy the `.env.example` file to `.env.local` and fill in the necessary credentials and API keys.
+3. Configure environment variables: Copy the `.env.local` and fill in the necessary credentials and API keys.
 
 4. Run the development server: `npm run dev`
 
@@ -78,6 +79,13 @@ The Thread App Clone provides a user-friendly interface for creating threads, pa
 
 Contributions to the Thread App Clone project are welcome! If you encounter issues or have ideas for improvements, feel free to open issues or submit pull requests on the project's GitHub repository.
 
----
+## Future Work
 
-Thank you for choosing the Thread App Clone for your project! If you have any questions, need assistance, or want to explore further features, feel free to refer to the documentation or reach out to the project contributors. Happy coding! 🚀
+1. Like functionality
+2. Community feature
+3. share functionality
+4. re-tweet functionality
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+Thank you for choosing the Thread App Clone for your project! If you have any questions, need assistance, or want to explore further features, feel free to refer to the documentation or reach out at shubhjhawar78@gmail.com. Happy coding! 🚀
