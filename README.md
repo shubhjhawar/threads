@@ -2,7 +2,7 @@
 
 <img width="428" alt="thread-mob" src="https://github.com/shubhjhawar/threads/assets/67875612/dc864885-5514-464f-9b47-771f16d66895">
 
-<img width="428" alt="thread-mob" src="https://github.com/shubhjhawar/threads/assets/67875612/e8b58417-9c19-4832-8943-a684454fd70a">
+<img width="960" alt="thread-web" src="https://github.com/shubhjhawar/threads/assets/67875612/d439a801-659b-44a0-8471-d791408142fe">
 
 
 ## Live Deployment
