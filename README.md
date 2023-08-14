@@ -1,13 +1,10 @@
 # Thread App Clone Web Project Readme
 
-<img width="428" alt="thread-mob" src="https://github.com/shubhjhawar/threads/assets/67875612/dc864885-5514-464f-9b47-771f16d66895">
-
-<img width="960" alt="thread-web" src="https://github.com/shubhjhawar/threads/assets/67875612/d439a801-659b-44a0-8471-d791408142fe">
-
-
 ## Live Deployment
 
 The live deployment of the Thread App Clone can be accessed at [https://threads-ashen.vercel.app/](https://threads-ashen.vercel.app/). Feel free to explore the application's features and functionalities in the live environment.
+
+<img width="960" alt="thread-web" src="https://github.com/shubhjhawar/threads/assets/67875612/d439a801-659b-44a0-8471-d791408142fe">
 
 ## Table of Contents
 
