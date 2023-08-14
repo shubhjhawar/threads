@@ -1,4 +1,4 @@
-# Thread App Clone Web Project Readme
+# Threads Clone Web Project
 
 ## Live Deployment
 
